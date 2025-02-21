@@ -33,7 +33,7 @@ export class UserComponent {
       this.usuarioAutenticado = true;
       this.mensaje = 'Inicio de sesión exitoso.';
     } else {
-      this.mensaje = 'Usario incorrecto';
+      this.mensaje = 'Usuario incorrecto';
     }
   }
 
