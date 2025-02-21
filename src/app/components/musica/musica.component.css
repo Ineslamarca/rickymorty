@@ -1,0 +1,12 @@
+.container-fluid {
+    background-color: rgb(50, 15, 164);
+    color: greenyellow;
+    height: 100vh;
+   }
+   .card {
+    border-radius: 10px;
+  }
+  .btn {
+    font-weight: bold;
+  }
+  

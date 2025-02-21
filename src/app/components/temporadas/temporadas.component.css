@@ -1,0 +1,27 @@
+.container-fluid {
+    /* background-color: rgb(210, 50, 50);
+    color: greenyellow;
+    height: 100vh; */
+   }
+
+   .btn-secondary {
+    background-color: #00a099;
+    border-color: #00817d;
+  }
+  .btn-secondary:hover {
+    background-color: #00e600;
+    border-color: #00e600;
+  }
+  .btn-secondary:active {
+    color: #00e600; /* Color cuando está seleccionado */
+    border-color: #00e600;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: #00e600;
+    border-color: #00e600;
+  }
+  .btn-outline-secondary:active {
+    color: #00e600; /* Color cuando está seleccionado */
+    border-color: #00e600;
+  }

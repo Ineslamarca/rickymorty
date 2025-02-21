@@ -1,0 +1,80 @@
+/* html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+} */
+
+body {
+  background-color: #121212; /* Color de fondo oscuro */
+  color: #e0e0e0; /* Color del texto claro */
+  font-family: 'Arial', sans-serif; /* Fuente general */
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* Encabezados en blanco */
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #1e90ff; /* Color de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilo para los botones */
+.btn {
+  background-color: #1e1e1e; /* Fondo de botones oscuro */
+  color: #ffffff; /* Texto de botones en blanco */
+  border: 1px solid #444; /* Borde más claro */
+}
+
+.btn:hover {
+  background-color: #333; /* Fondo de botones al pasar el mouse */
+}
+
+/* Estilo para tarjetas (card) */
+.card {
+  background-color: #1e1e1e; /* Fondo de tarjetas oscuro */
+  border: 1px solid #444; /* Borde de tarjetas */
+  color: #e0e0e0; /* Color del texto en tarjetas */
+}
+
+/* Estilo para formularios */
+.form-control {
+  background-color: #1e1e1e; /* Fondo de campos de formulario */
+  color: #ffffff; /* Texto en campos de formulario */
+  border: 1px solid #444; /* Borde de campos de formulario */
+}
+
+.form-control::placeholder {
+  color: #aaa; /* Color del placeholder */
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #121212; /* Fondo del pie de página */
+  color: #ffffff; /* Texto en el pie de página */
+  padding: 20px 0; /* Padding superior e inferior */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para tablas */
+.table {
+  background-color: #1e1e1e; /* Fondo de tablas */
+  color: #e0e0e0; /* Color del texto en tablas */
+}
+
+.table th, .table td {
+  border: 1px solid #444; /* Borde de celdas de tabla */
+}
+
+/* Estilo para alertas */
+.alert {
+  background-color: #1e1e1e; /* Fondo de alertas */
+  color: #e0e0e0; /* Color del texto en alertas */
+}

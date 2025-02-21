@@ -1,0 +1,29 @@
+<div class="container mt-4">
+    <div class="card shadow">
+      <div class="card-body">
+        <h2 class="card-title text-center"> Lista de Canciones</h2>
+  
+        <table class="table table-striped mt-3">
+          <thead class="table-dark">
+            <tr>
+              <th>Título</th>
+              <th>Artista</th>
+              <th>EliminarCancion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let cancion of canciones">
+              <td>{{ cancion.titulo }}</td>
+              <td>{{ cancion.artista }}</td>
+              <td>
+                <button class="btn btn-danger btn-sm" (click)="eliminarCancion(cancion.titulo)"> X Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+  
+        <button class="btn btn-success w-100 mt-3" (click)="agregarCancion()"> +Agregar Canción</button>
+      </div>
+    </div>
+  </div>
+  

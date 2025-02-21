@@ -1,0 +1,294 @@
+<style>
+  .btn-secondary {
+    background-color: #00a099;
+    border-color: #00817d;
+  }
+  .btn-secondary:hover {
+    background-color: #00e600;
+    border-color: #00e600;
+  }
+  .btn-secondary:active {
+    color: #00e600; /* Color cuando está seleccionado */
+    border-color: #00e600;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: #00e600;
+    border-color: #00e600;
+  }
+  .btn-outline-secondary:active {
+    color: #00e600; /* Color cuando está seleccionado */
+    border-color: #00e600;
+  }
+</style>
+
+<div
+  class="container-fluid"
+  style="transform-origin: top center; padding-top: 40px; padding-bottom: 10px"
+>
+  <div id="temporada2" class="row">
+    <div class="col-12 text-center mb-4">
+      <!-- <h2 [style.color]="propertyBinding">{{titulo}}</h2> -->
+      <h2 [style.color]="'#00FF00'">{{ titulo }}</h2>
+      <!-- Verde fluorescente -->
+    </div>
+  </div>
+
+  <!-- Sección TEMPORADAS que ocupa 10 columnas y es responsiva -->
+  <div class="row justify-content-center">
+    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+      <!-- Filas de tarjetas -->
+      <div class="row justify-content-center">
+        <!-- Tarjeta 1 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card" style="width: 100%; margin: auto">
+            <img
+              src="https://res.cloudinary.com/ddapoboe6/image/upload/v1737741766/2_djxbzh.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Temporada 2:</h5>
+              <p class="card-text">"The Wedding Squanchers".</p>
+              <p>
+                Rick y la familia son invitados a la boda de Birdperson, pero
+                todo sale mal cuando el evento es atacado por la Federación
+                Galáctica. Este episodio marca un punto clave en la narrativa de
+                Rick y su pasado.
+              </p>
+            </div>
+
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="comprarBtn1"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Comprar
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="white"
+                  class="bi bi-bag-plus-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card" style="width: 100%; margin: auto">
+            <img
+              src="https://res.cloudinary.com/ddapoboe6/image/upload/v1737744228/5_lrjcis.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Temporada 3</h5>
+              <p class="card-text">"The Rickshank Rickdemption".</p>
+              <p>
+                Rick escapa de la prisión de la Federación Galáctica, mostrando
+                cómo manipuló la mente de sus captores para salir victorioso.
+                Este episodio también introduce el chiste recurrente de la
+                Szechuan Sauce de McDonald's.
+              </p>
+            </div>
+
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="comprarBtn2"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Comprar
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bag-plus-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card" style="width: 100%; margin: auto">
+            <img
+              src="https://res.cloudinary.com/ddapoboe6/image/upload/v1737741764/4_ujdg0l.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Temporada 4</h5>
+              <p class="card-text">"Edge of Tomorty: Rick Die Rickpeat".</p>
+              <p>
+                Morty obtiene cristales que muestran cómo podría morir y toma
+                decisiones que alteran su vida. Este episodio explora dilemas
+                morales y el impacto de las elecciones.
+              </p>
+            </div>
+
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="comprarBtn3"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Comprar
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bag-plus-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card" style="width: 100%; margin: auto">
+            <img
+              src="https://res.cloudinary.com/ddapoboe6/image/upload/v1737741764/1_uuefix.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Temporada 6</h5>
+              <p class="card-text">"Solaricks".</p>
+              <p>
+                La temporada arranca con Rick y Morty lidiando con los problemas
+                de los portales que dejó la temporada anterior. Es un episodio
+                cargado de acción y referencias al multiverso.
+              </p>
+            </div>
+
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="comprarBtn4"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Comprar
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bag-plus-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">
+          Compra el Capítulo por $0,99
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <img
+          src="https://res.cloudinary.com/ddapoboe6/image/upload/v1737824866/1_vqh2sm.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <p class="card-text">
+          ¡Gracias por tu compra, terrícola interdimensional! 🚀 Estás a un
+          click de desbloquear un capítulo exclusivo de Rick and Morty.
+          Prepárate para aventuras épicas, giros alucinantes y ciencia que
+          desafía las leyes del multiverso. Tu portal está abierto: ¡haz clic en
+          “Añadir” y que comience el caos cósmico! 🌀
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cerrar
+        </button>
+        <button type="button" class="btn btn-secondary">
+          Añadir
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart-check"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"
+            />
+            <path
+              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

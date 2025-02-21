@@ -1,0 +1,20 @@
+  /* Definir verde fluorescente */
+  .btn-fluorescent {
+    background-color: #00ff00; /* Verde fluorescente */
+    color: black; /* Texto en negro para contraste */
+    border: none; /* Sin borde */
+  }
+
+  /* Efecto hover */
+  .btn-fluorescent:hover {
+    background-color: #00e600; /* Un verde ligeramente más oscuro */
+  }
+  .nav-link {
+    color: #00a099;
+  }
+  .nav-link:hover {
+    color: #00e600;
+  }
+  .nav-link:active {
+    color: #00e600; /* Color cuando está seleccionado */
+  }
